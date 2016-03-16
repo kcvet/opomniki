@@ -28,7 +28,7 @@ window.addEventListener('load', function() {
 			var casovnik = opomnik.querySelector("span");
 			var cas = parseInt(casovnik.innerHTML);
 	
-			//TODO: 
+			//TODO: a
 			// - če je čas enak 0, izpiši opozorilo "Opomnik!\n\nZadolžitev NAZIV_OPOMNIK je potekla!"
 			// - sicer zmanjšaj čas za 1 in nastavi novo vrednost v časovniku
 			if(cas == 0){
